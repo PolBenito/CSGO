@@ -1,0 +1,64 @@
+.boxArma {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.boxImgDesc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.boxImg {
+  display: flex;
+  margin-right: 8rem;
+}
+
+.imgArma {
+  width: 20rem;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  width: 40rem;
+}
+
+.carac {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+}
+
+.column1, .column2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.column1 {
+  width: 10rem;
+}
+
+.column2 {
+  width: 25rem;
+}
+
+.boxDescCarac {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+b {
+  display: flex;
+  flex-direction: column;
+}

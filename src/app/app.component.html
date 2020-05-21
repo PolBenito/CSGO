@@ -1,0 +1,26 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="home" routerLinkActive="active">
+      <img id="logo" src="../assets/logo_csgo.png" alt="">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="armas" routerLinkActive="active">Armas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="mapas" routerLinkActive="active">Mapas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="sobre" routerLinkActive="active">Sobre</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<body>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</body>

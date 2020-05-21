@@ -1,0 +1,3 @@
+https://totalcsgo.com/callouts
+
+F12 -> Sources -> image/callouts

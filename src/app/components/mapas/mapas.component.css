@@ -1,0 +1,28 @@
+h2 {
+  display: flex;
+  color: #343A40;
+  margin: 1rem 0rem 0rem 3rem;
+}
+
+.contentMapas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  width: 40rem;
+  margin: 1rem;
+  height: auto;
+
+  /* border: 0px; */
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}

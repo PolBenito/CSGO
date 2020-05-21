@@ -1,0 +1,57 @@
+h2 {
+  display: flex;
+  color: #343A40;
+  margin: 1rem 0rem 0rem 3rem;
+}
+
+.contentArmas {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxTipo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  width: 18rem;
+  margin: 1rem;
+  height: auto;
+}
+
+#pistola {
+  height: 50rem;
+}
+
+#metralleta {
+  height: 46rem;
+}
+
+#rifles {
+  height: 59rem;
+}
+
+.card-img-top {
+  padding: 1rem;
+}
+
+.boxButton {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.observarArma {
+  position: absolute;
+  bottom: 1rem;
+  width: 15rem;
+}
+
+.especial {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}

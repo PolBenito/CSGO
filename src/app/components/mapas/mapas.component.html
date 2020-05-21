@@ -1,0 +1,11 @@
+<h2>Mapas</h2>
+<div class="contentMapas">
+  <div *ngFor="let mapa of mapas">
+    <div class="card">
+      <h5 class="card-title">{{ mapa.nombre }}</h5>
+      <div class="card-body">
+        <img class="card-img-top" src="../../../assets/mapas/{{ mapa.img }}" alt="Imagen del mapa">
+      </div>
+    </div>
+  </div>
+</div>

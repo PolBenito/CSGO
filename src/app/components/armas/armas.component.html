@@ -1,0 +1,78 @@
+<div class="contentarmas">
+
+  <h2>Pistolas</h2>
+  <div class="boxTipo">
+    <div *ngFor="let arma of armas">
+      <div *ngIf="arma.tipo == 'pistola'">
+        <div class="card" id="pistola">
+          <img class="card-img-top" src="../../../assets/armas/{{ arma.img }}" alt="Imagen de la arma">
+          <div class="card-body">
+            <h5 class="card-title">{{ arma.nombre }}</h5>
+            <p class="card-text">{{ arma.desc }}</p>
+            <hr>
+            <p class="card-text"><b>Precio: </b>{{ arma.precio }}</p>
+            <p class="card-text"><b>Cargador: </b>{{ arma.cargador }}</p>
+            <p class="card-text"><b>Potencia: </b>{{ arma.potencia }}</p>
+            <div *ngIf="arma.especial != 'No'">
+              <p class="card-text especial"><b>Especial: </b>{{ arma.especial }}</p>
+            </div>
+            <div class="boxButton">
+              <a routerLink="/arma/{{arma.id}}" class="btn btn-primary observarArma">Observar arma</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Metralletas</h2>
+  <div class="boxTipo">
+    <div *ngFor="let arma of armas">
+      <div *ngIf="arma.tipo == 'metralletas'">
+        <div class="card" id="metralleta">
+          <img class="card-img-top" src="../../../assets/armas/{{ arma.img }}" alt="Imagen de la arma">
+          <div class="card-body">
+            <h5 class="card-title">{{ arma.nombre }}</h5>
+            <p class="card-text">{{ arma.desc }}</p>
+            <hr>
+            <p class="card-text"><b>Precio: </b>{{ arma.precio }}</p>
+            <p class="card-text"><b>Cargador: </b>{{ arma.cargador }}</p>
+            <p class="card-text"><b>Potencia: </b>{{ arma.potencia }}</p>
+            <div *ngIf="arma.especial != 'No'">
+              <p class="card-text especial"><b>Especial: </b>{{ arma.especial }}</p>
+            </div>
+            <div class="boxButton">
+              <a routerLink="/arma/{{arma.id}}" class="btn btn-primary observarArma">Observar arma</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Rifles</h2>
+  <div class="boxTipo">
+    <div *ngFor="let arma of armas">
+      <div *ngIf="arma.tipo == 'rifles'">
+        <div class="card" id="rifles">
+          <img class="card-img-top" src="../../../assets/armas/{{ arma.img }}" alt="Imagen de la arma">
+          <div class="card-body">
+            <h5 class="card-title">{{ arma.nombre }}</h5>
+            <p class="card-text">{{ arma.desc }}</p>
+            <hr>
+            <p class="card-text"><b>Precio: </b>{{ arma.precio }}</p>
+            <p class="card-text"><b>Cargador: </b>{{ arma.cargador }}</p>
+            <p class="card-text"><b>Potencia: </b>{{ arma.potencia }}</p>
+            <div *ngIf="arma.especial != 'No'">
+              <p class="card-text especial"><b>Especial: </b>{{ arma.especial }}</p>
+            </div>
+            <div class="boxButton">
+              <a routerLink="/arma/{{arma.id}}" class="btn btn-primary observarArma">Observar arma</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
